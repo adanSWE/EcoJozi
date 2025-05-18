@@ -57,21 +57,21 @@ EcoJozi/
 
 
 ## **Essential Game Features:**
-Gamified Project Development: Navigate through board tasks representing planning, design, development, and testing.
-Alliances: Form alliances with other players to tackle bigger challenges.
-Random Events: Encounter good and bad events that impact your resources and progress.
-Resource Management: Manage your rands to claim tasks and complete project phases.
-Multiple Endings: Achieve different game outcomes based on team collaboration and resource management.
+- Gamified Project Development: Navigate through board tasks representing planning, design, development, and testing.
+- Alliances: Form alliances with other players to tackle bigger challenges.
+- Random Events: Encounter good and bad events that impact your resources and progress.
+- Resource Management: Manage your rands to claim tasks and complete project phases.
+- Multiple Endings: Achieve different game outcomes based on team collaboration and resource management.
 
 
 ## **Team Members:**
 This project was built by Team 22, by:
-	•	Adan Khan (Me)
-  • Muneer Alsahli
-	•	Hassan Sakka
-	•	Ryan O’Neill-Quinn
-	•	Hein Htet Aung
-	•	Joshua Dennison
-	•	Clive Nyamadzawo
+- Adan Khan (Me)
+- Muneer Alsahli
+- Hassan Sakka
+- Ryan O’Neill-Quinn
+- Hein Htet Aung
+- Joshua Dennison
+- Clive Nyamadzawo
 
 
