@@ -1,75 +1,77 @@
 # EcoJozi Game Simulation  
-**EcoJozi Game Simulation** is a strategic game board simulation representing the development of the *EcoJozi Sustainable Waste Management Solution* for the **Making It Better Engineers Without Borders Challenge**, part of the *CSC2058: Software Engineering and Systems Development* module at **Queen's University Belfast**.
+**EcoJozi Game Simulation** is an interactive Java-based board game that simulates the development of the EcoJozi project as part of the *Making It Better Engineers Without Borders Challenge*. Built for the *CSC2058: Software Engineering and Systems Development* module at **Queen's University Belfast**, this game allows players to navigate the challenges of building a sustainable waste management solution in Johannesburg's Makers Valley.
 
 
 ## 🌍 **Project Overview**  
-As part of the *Making It Better Engineers Without Borders Challenge*, this project focuses on gamifying the development of EcoJozi—a sustainable waste management solution aimed at tackling waste issues in Makers Valley, Johannesburg. The game simulation allows players to step into the shoes of developers, planners, and community leaders as they navigate real-world challenges in building EcoJozi.
+The Game lets players take on the roles of developers, community leaders, and planners. It is designed to mimic the real-world project management tasks of the EcoJozi initiative, including planning, development, design, and testing phases.
 
 
-### **Objective:**  
-The game board simulates key stages in the EcoJozi project, including:  
-- Planning and Design of waste management strategies  
-- Building community partnerships  
-- Resource allocation and funding management  
-- Overcoming development obstacles and environmental challenges  
-
-Players make strategic decisions to ensure EcoJozi’s successful implementation while facing real-world constraints and community dynamics.
+### **Key Objectives:**  
+- Experience the complete project lifecycle through gamification.  
+- Learn about sustainable waste management and community engagement.  
+- Overcome real-world-inspired challenges, including budget constraints, design hurdles, and community issues.
 
 
 ## 🔧 **Technical Overview**  
-This project is built using:  
-- **Java** — Core game logic and simulation.  
-- **Java Swing** — GUI implementation of the game board and interactive elements.  
-- **Git** — Version control for collaborative development.  
+The game is built using:  
+- **Java** — Core game logic and event handling.  
+- **Java Swing** — Graphical User Interface (GUI) for interactive gameplay.  
+- **Git** — Version control and collaboration.
 
-### Project Structure:
-### Project Structure:
+### **Project Structure:**  
 ```plaintext
-EcoJozi-Game-Simulation/
+EcoJozi/
 │
-├── bin/                               
-│
-├── src/                                
+├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   ├── Alliance.java               
-│   │   │   ├── AboutPanel.java            
-│   │   │   ├── Board.java                 
-│   │   │   ├── Bad_Events.java            
-│   │   │   ├── Game.java                  
-│   │   │   ├── Player.java                
-│   │   │   ├── BadEndingPanel.java        
-│   │   │   ├── GoodEndingPanel.java       
-│   │   │   ├── Good_Events.java           
-│   │   │   ├── MainMenuPanel.java         
-│   │   │   ├── SettingsPanel.java         
-│   │   │   ├── Task.java                  
-│   │   │   └── TutorialPanel.java         
-│   │   └── resources/
-│   │       ├── images/                    
-│   │           └── EcoJozi_Full.png       
-│   └── test/                              
+│   │   ├── Alliance.java               # Manages alliances in the game
+│   │   ├── AboutPanel.java             # About page for the game interface
+│   │   ├── Board.java                  # Main game board logic
+│   │   ├── Bad_Events.java             # Handles bad events during gameplay
+│   │   ├── Game.java                   # Main game loop and logic
+│   │   ├── Player.java                 # Player object and logic
+│   │   ├── BadEndingPanel.java         # Panel for bad ending scenario
+│   │   ├── GoodEndingPanel.java        # Panel for good ending scenario
+│   │   ├── Good_Events.java            # Handles good events during gameplay
+│   │   ├── MainMenuPanel.java          # Main menu interface
+│   │   ├── SettingsPanel.java          # Settings and configurations
+│   │   ├── Task.java                   # Represents tasks to be completed
+│   │   ├── TutorialPanel.java          # Tutorial interface for new users
+│   │   └── images/
+│   │       └── EcoJozi_Full.png        # Logo for the game
+│   └── test/
 │       ├── java/
-│       │   ├── BoardTest.java             
-│       │   ├── PlayerTest.java            
-│       │   ├── GameTest.java              
-│       │   └── TaskTest.java             
-│       └── resources/
-│           └── test-data/                
+│       │   ├── AllianceTest.java       # Test cases for Alliance
+│       │   ├── BoardTest.java          # Test cases for Board
+│       │   ├── GameTest.java           # Test cases for Game
+│       │   ├── PlayerTest.java         # Test cases for Player
+│       │   └── TaskTest.java           # Test cases for Task
 │
-├── docs/                               
+├── docs/                               # Documentation files
 │   ├── Project_Report.pdf
 │   ├── Poster.pdf
-│   └── User_Manual.pdf
 │
-├── EcoJozi.iml                         
-├── README.md                            
-└── LICENSE                              
+├── README.md                           # Project description and instructions
+└── LICENSE                             # License information
 ```
 
-## 🌟 **Game Features**  
-- **Simulated Game Board:** Navigate through different phases of EcoJozi's development.  
-- **Task Management:** Complete development milestones like planning, building community hubs, and securing resources.  
-- **Random Events:** Handle unexpected challenges like funding cuts, community protests, and resource shortages.  
-- **Resource Management:** Strategically allocate funding and resources to ensure smooth project development.  
-- **Interactive GUI:** Built with **Java Swing** to offer a seamless and engaging user experience.  
+
+## **Essential Game Features:**
+Gamified Project Development: Navigate through board tasks representing planning, design, development, and testing.
+Alliances: Form alliances with other players to tackle bigger challenges.
+Random Events: Encounter good and bad events that impact your resources and progress.
+Resource Management: Manage your rands to claim tasks and complete project phases.
+Multiple Endings: Achieve different game outcomes based on team collaboration and resource management.
+
+
+## **Team Members:**
+This project was built by Team 22, by:
+	•	Adan Khan (Me)
+  • Muneer Alsahli
+	•	Hassan Sakka
+	•	Ryan O’Neill-Quinn
+	•	Hein Htet Aung
+	•	Joshua Dennison
+	•	Clive Nyamadzawo
+
+
