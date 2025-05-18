@@ -1,4 +1,4 @@
-# EcoJozi Game Simulation  
+# EcoJozi 
 **EcoJozi Game Simulation** is an interactive Java-based board game that simulates the development of the EcoJozi project as part of the *Making It Better Engineers Without Borders Challenge*. Built for the *CSC2058: Software Engineering and Systems Development* module at **Queen's University Belfast**, this game allows players to navigate the challenges of building a sustainable waste management solution in Johannesburg's Makers Valley.
 
 
