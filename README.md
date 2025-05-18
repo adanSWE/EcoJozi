@@ -23,31 +23,49 @@ This project is built using:
 - **Git** — Version control for collaborative development.  
 
 ### Project Structure:
+### Project Structure:
+```plaintext
 EcoJozi-Game-Simulation/
 │
-├── src/
+├── bin/                               
+│
+├── src/                                
 │   ├── main/
 │   │   ├── java/
-│   │   │   ├── EcoJoziSimulation.java      # Main application entry point
-│   │   │   ├── GameBoard.java              # Game board logic
-│   │   │   ├── TaskManager.java            # Management of project tasks
-│   │   │   ├── CommunityEngagement.java    # Simulated community events
-│   │   │   ├── FundingAndResources.java    # Resource and funding logic
-│   │   │   └── EventSystem.java            # Random events and challenges
+│   │   │   ├── Alliance.java               
+│   │   │   ├── AboutPanel.java            
+│   │   │   ├── Board.java                 
+│   │   │   ├── Bad_Events.java            
+│   │   │   ├── Game.java                  
+│   │   │   ├── Player.java                
+│   │   │   ├── BadEndingPanel.java        
+│   │   │   ├── GoodEndingPanel.java       
+│   │   │   ├── Good_Events.java           
+│   │   │   ├── MainMenuPanel.java         
+│   │   │   ├── SettingsPanel.java         
+│   │   │   ├── Task.java                  
+│   │   │   └── TutorialPanel.java         
 │   │   └── resources/
-│   │       └── images/                     # Icons and board graphics
-│   │       └── sounds/                     # Sound effects and notifications
-│   └── test/
-│       └── java/                           # Unit tests for game logic
+│   │       ├── images/                    
+│   │           └── EcoJozi_Full.png       
+│   └── test/                              
+│       ├── java/
+│       │   ├── BoardTest.java             
+│       │   ├── PlayerTest.java            
+│       │   ├── GameTest.java              
+│       │   └── TaskTest.java             
+│       └── resources/
+│           └── test-data/                
 │
-├── docs/
+├── docs/                               
 │   ├── Project_Report.pdf
 │   ├── Poster.pdf
 │   └── User_Manual.pdf
 │
-├── README.md
-└── LICENSE
-
+├── EcoJozi.iml                         
+├── README.md                            
+└── LICENSE                              
+```
 
 ## 🌟 **Game Features**  
 - **Simulated Game Board:** Navigate through different phases of EcoJozi's development.  
